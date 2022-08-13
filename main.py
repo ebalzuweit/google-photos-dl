@@ -52,7 +52,7 @@ def download_photos_from_mediaItems(photos, download_path):
                 file.write(img_data)
                 print(f'Downloaded {filename}')
         else:
-            print(f'Skipping {filename}')
+            continue
 
 def main():
     config = configparser.ConfigParser()
